@@ -8,6 +8,7 @@ margin-right: auto;
 border: Solid white 3px;
   border-radius: 20px; 
   background-color: grey;
+  width: 60%;
 }
 .BorderAfter {
 border: Solid black 10px;
