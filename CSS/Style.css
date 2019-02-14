@@ -5,10 +5,12 @@ margin-right: auto;
 }
 
 .Border {
-border: Solid Blue 3px;
+border: Solid white 3px;
   border-radius: 20px; 
+  background-color: grey;
 }
 .BorderAfter {
 border: Solid black 10px;
   border-radius: 20px; 
+  background-color: black;
 }
