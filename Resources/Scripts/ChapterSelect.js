@@ -4,11 +4,11 @@ function ChapterSelect() {
   var currentVal = x.value; 
 var zeros = [ "0" , "Zero" , "zero"];
 var arraynumbers = [ "1", "2", "3", "4", "5", "6", "7", "8", "9", 
-"10", "11", "12", "13", "14", "15", "16", "17",  ];
+"10", "11", "12", "13", "14"  ];
 var arraylower = ["sajfdijafidsjifsd", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", 
-"ten", "eleven", "tweleve", "thirteen", "fourteen", "fiftheen", "sixteen", "seventeen"];
+"ten", "eleven", "tweleve", "thirteen", "fourteen"];
 var arraycapital = ["asfjsajkfodasjkfoskf", "One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", 
-"Ten", "Eleven", "Tweleve", "Thirteen", "Fourteen", "Fiftheen", "Sixteen", "Seventeen"];
+"Ten", "Eleven", "Tweleve", "Thirteen", "Fourteen"];
 var Collor = (arraylower.indexOf(currentVal)); 
 var Collor2 = (arraycapital.indexOf(currentVal)); 
     var url1 = "https://xplosivex.github.io/Burkoloy/Chapters/Chapter" + currentVal + ".html";
