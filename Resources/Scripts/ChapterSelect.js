@@ -16,7 +16,7 @@ var Collor2 = (arraycapital.indexOf(currentVal));
    var url3 = "https://xplosivex.github.io/Burkoloy/Chapters/Chapter" + Collor2 + ".html";
   var url4 = "https://xplosivex.github.io/Burkoloy/";
   
- if (n = currentVal.includes(zeros)) {
+ if (n = zeros.includes(currentVal)) {
  location.href= url1;
  }
 else if (n = arraylower.includes(currentVal)) { 
