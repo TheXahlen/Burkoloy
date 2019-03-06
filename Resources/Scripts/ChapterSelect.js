@@ -17,7 +17,7 @@ var Collor2 = (arraycapital.indexOf(currentVal));
   var url4 = "https://xplosivex.github.io/Burkoloy/";
   
  if (n = zeros.includes(currentVal)) {
- location.href= url1;
+ location.href= url4;
  }
 else if (n = arraylower.includes(currentVal)) { 
 
