@@ -57,8 +57,10 @@ document.getElementById("Big1").id = "Normal";
 }
 }
 function  Reset(){ 
+   var current = document.getElementsByTagName("DIV")[0];
 document.getElementById("Sizeable").style.fontSize = "16px";
   document.getElementById("Sizeable2").style.fontSize = "16px";
   document.getElementById("Sizeable3").style.fontSize = "16px";
   document.getElementById("Sizeable4").style.fontSize = "16px";
+  document.getElementById(current).id = "Normal";
 }
