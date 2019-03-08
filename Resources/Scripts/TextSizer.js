@@ -19,7 +19,7 @@ document.getElementById("Sizeable").style.fontSize = "12px";
   document.getElementById("Sizeable3").style.fontSize = "12px";
   document.getElementById("Sizeable4").style.fontSize = "12px";
 document.getElementById("Small2").id = "Small1"; 
-} else if  (x.id == "Small1")  {
+} else  (x.id == "Small1")  {
 document.getElementById("Sizeable").style.fontSize = "16px";
   document.getElementById("Sizeable2").style.fontSize = "16px";
   document.getElementById("Sizeable3").style.fontSize = "16px";
@@ -48,7 +48,7 @@ document.getElementById("Sizeable").style.fontSize = "25px";
   document.getElementById("Sizeable3").style.fontSize = "25px";
   document.getElementById("Sizeable4").style.fontSize = "25px";
 document.getElementById("Big2").id = "Big1"; 
-} else if  (x.id == "Big1")  {
+} else  (x.id == "Big1")  {
 document.getElementById("Sizeable").style.fontSize = "16px";
   document.getElementById("Sizeable2").style.fontSize = "16px";
   document.getElementById("Sizeable3").style.fontSize = "16px";
