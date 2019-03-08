@@ -29,8 +29,12 @@ location.href= url3;
 else if (n = arraynumbers.includes(currentVal)) {
 location.href= url1;
 } else {
-document.getElementById("demo").innerHTML =
-    "Not A  Valid Chapter"
+   document.getElementById("demo").style.color = "Red";
+document.getElementById("demo").style.textDecoration = "Underline";
+  setTimeout(function(){ 
+  document.getElementById("demo").style.color = "Black";
+  document.getElementById("demo").style.textDecoration = "None";
+  }, 500);
 }
 }
 
