@@ -14,7 +14,7 @@ var testa = testM[rand];
   document.getElementById("Rotate").innerHTML =    testa ;
  var timeplus = (WordCount(testa));
   if (timeplus < 30) {
-   var timetimes = timeplus * 10 - 4000;
+   var timetimes = timeplus * 5 - 4000;
        } else (timeplus > 30){
         var timetimes = timeplus * 20 + 4000;
        }
