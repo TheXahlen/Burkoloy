@@ -13,7 +13,11 @@ var rand = number[Math.floor(Math.random() * number.length)];
 var testa = testM[rand];
   document.getElementById("Rotate").innerHTML =    testa ;
  var timeplus = (WordCount(testa));
-  var timetimes = timeplus * 25 + 5000;
+  if (timeplus < 30) {
+   var timetimes = timeplus * 5 - 4000;
+       } else (timeplus > 30){
+        var timetimes = timeplus * 20 + 4000;
+       }
   setTimeout(Rotate, timetimes);
   if (rand == currentrand) {
   Rotate();
