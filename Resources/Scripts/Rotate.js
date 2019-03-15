@@ -23,4 +23,4 @@ var testa = testM[rand];
   if (rand == currentrand) {
   Rotate();
   }
- Rotate();
+
