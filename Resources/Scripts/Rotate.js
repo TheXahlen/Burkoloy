@@ -15,8 +15,10 @@ var testa = testM[rand];
   var timeplus = (WordCount(testa));
   if (timeplus < 30) {
     setTimeout(Rotate, 4000 - timeplus * 25 );
+    document.getElementById("Rotate").style.width = timeplus * 1.5 + "530px";
        } else if (timeplus > 30) {
          setTimeout(Rotate, timeplus * 25 + 4000);
+         document.getElementById("Rotate").style.width = timeplus * 1.3 + "530px";
        } 
 }
 Rotate();
