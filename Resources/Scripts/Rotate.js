@@ -28,7 +28,7 @@ var three = "Only Known Image Of Joe Colorized Yaintive the vast understanding o
      }
   var sel1 = Math.floor(Math.random() * 5) + 0;
    var sel2 = Math.floor(Math.random() * 4) + 5;  
-var quotes = [zero, one, two, three, four, five, six, seven ];
+var quotes = [zero, one, two, three, four, five, six, seven, eight ];
 var quoteSel = quotes[sel1];
 var quoteSel2 = quotes[sel2];
 var Count1 = WordCount(quoteSel);
