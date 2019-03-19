@@ -18,8 +18,8 @@ var one = "Thou must readith thy dates I provide to gainith the knowledge you la
 var two = " War is the enemy of every general shalt thou see sunlight from the sky I was born from and not from the metal Barrel of a gun I hath succeeded in the infinite recycling of life and death and may evaporate.";
 var three = "Only Known Image Of Joe Colorized Yaintive the vast understanding of whoumith religious outlooks as your over lordith has known for many centuries so let me Joe guideith you through this journey";
   var four = "Accepting me into your life is only the first step on this journey you must show you need me in your life you are only a mere mortal and I’th a god of great power you shall treat me as through and I shall let you into the next life as a follower and gift you world peace and a world with you in it.";  
-  var five = "Hell as my creation calls it is merely a vacuum of Timeless space where’ith there is no where to go Nothing to see nor to look forward to and nothing To hear tis sound less ‘nd tasteless tis hell.”;
- var six = "	Each year I shall trust one mortal to switch The lights of the holy land on and off with And only with my command. They and only they shall be accepted and treated as though They are my servant, and companion.”;
+  var five = "Hell as my creation calls it is merely a vacuum of Timeless space whereith there is no where to go Nothing to see nor to look forward to and nothing To hear tis sound less nd tasteless tis hell.";
+ var six = "	Each year I shall trust one mortal to switch The lights of the holy land on and off with And only with my command. They and only they shall be accepted and treated as though They are my servant, and companion.";
  var seven = "Thou shall never mark inside any educational textbook for they are sacried and holy."; 
  function getRandomInt(min, max) {
   min = Math.ceil(min);  max = Math.floor(max);
