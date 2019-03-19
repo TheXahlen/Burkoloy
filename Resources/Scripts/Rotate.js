@@ -21,7 +21,8 @@ var three = "Only Known Image Of Joe Colorized Yaintive the vast understanding o
   var five = "Hell as my creation calls it is merely a vacuum of Timeless space whereith there is no where to go Nothing to see nor to look forward to and nothing To hear tis sound less nd tasteless tis hell.";
  var six = "	Each year I shall trust one mortal to switch The lights of the holy land on and off with And only with my command. They and only they shall be accepted and treated as though They are my servant, and companion.";
  var seven = "Thou shall never mark inside any educational textbook for they are sacried and holy."; 
- function getRandomInt(min, max) {
+ var eight = "Thou must praise and commemorate Joe himself as a god and worship him as it.";
+  function getRandomInt(min, max) {
   min = Math.ceil(min);  max = Math.floor(max);
   return Math.floor(Math.random() * (max - min)) + min; 
      }
