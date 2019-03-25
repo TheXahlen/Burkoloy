@@ -1,21 +1,11 @@
 function AntiCopy(){
-document.getElementById("Copy").style.opacity = "0.0";
-document.getElementById("Copied").innerHTML = "Do Not Copy";
-document.getElementById("Copied").style.fontSize = "100px";
-document.getElementById("Copied").style.paddingbottom = "1000px";
-  setTimeout(function(){
-  document.getElementById("Copied").style.paddingbottom = "0px";
-  document.getElementById("Copied").style.fontSize = "0px"
-document.getElementById("Copy").style.opacity = "1.0";
-  document.getElementById("Copied").innerHTML = "";
-  }, 500);
-  
+
 }
 var z = 0;
 document.addEventListener('copy', function(e) {
   AntiCopy();
   var x = z++;
-  
+  var PosNames = [ ];
   console.log(x)
   if (x == 0) {
   var Copy = "Please Don't Copy Or Reproduce This Content";  
@@ -29,8 +19,14 @@ if (x == 2) {
   if (x == 3) {
   var Copy = "Joe Will Smite You";
   }
-  if (x > 3) {
+  if (x == 3) {
   var Copy = "STOP FUCKING COPYING THIS";
+  }
+  if (x == 4){
+  var Copy = "You're Not Gonna Copy It Stop Trying";
+  }
+  if(x > 4) {
+  var x = 0 
   }
   
   e.clipboardData.setData('text/plain', Copy);
