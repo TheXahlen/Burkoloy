@@ -26,7 +26,7 @@ if (x == 2) {
   var Copy = "You're Not Gonna Copy It Stop Trying";
   }
   if(x > 4) {
-  var x = 0 
+  var z = 0; 
   }
   
   e.clipboardData.setData('text/plain', Copy);
