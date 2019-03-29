@@ -15,7 +15,7 @@
   
 <div class="divborder"> 
  <div class="divborder DivBackground" > 
-  <body  onload="Dynamic();">
+  <body  onload="FrameLoader()">
 <table><tr>
 <th>
   
@@ -74,6 +74,29 @@
  </table>
  </div>
  <div>
+  <script>
+    function FrameLoader() {
+var url = window.location.href;
+var chapNum = url.match(/\d/g);
+chapNum = chapNum.join("");
+ 
+function select(){
+  var here = 1; 
+ 
+  var Iframes = [
+    "garbage",
+  "https://pastebin.com/embed_iframe/VMDGdUZR/noheader", 
+    "https://pastebin.com/embed_iframe/h3H6Uhtc/noheader",
+    "https://pastebin.com/embed_iframe/FfjzqrZD/noheader",
+  ];
+    var Sel = Iframes[chapNum];
+  
+    var code = document.createElement("iframe")
+  code.src = Sel;
+  code.appendChild(body); 
+}
+ }
+  </script>
  <script src="https://xplosivex.github.io/Burkoloy/Resources/Scripts/Dropdown.js"> </script>
   <script src="https://xplosivex.github.io/Burkoloy/Resources/Scripts/ChapterSelect.js"> </script>
    <script src="https://xplosivex.github.io/Burkoloy/Resources/Scripts/Dynamic.js"> </script>
